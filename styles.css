@@ -1,4 +1,4 @@
-/* Fonts & Background color*/
+                /* Fonts & Background color*/
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|PT+Serif');
 
@@ -35,7 +35,6 @@ header, aside {
 }
 
 .page-header p {
-    font-family: 'Crimson Text', serif;
     color: #4C2D1A;
     margin: -15px 0 -20px 0;
     font-weight: bold;
@@ -71,7 +70,7 @@ aside {
     margin: 0 0 -25px 0;
 }
 
-/* Content */
+                       /* Content */
 
 .poem-header {
     text-align:center;
@@ -82,7 +81,6 @@ aside {
 }
 
 .poem {
-   font-family: 'PT Serif', serif; 
    line-height: 1.6;
    clear: both;
    border: 2px solid black;
@@ -104,7 +102,7 @@ aside {
     font-size: 180%;
 }
 
-/* Footer */
+                         /* Footer */
 
 footer {
     text-align: center;
@@ -136,7 +134,7 @@ footer {
     padding: 15px 0 0 0;
 }
 
-/* Links */
+                          /* Links */
 
 a {
     border: none;

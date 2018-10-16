@@ -1,7 +1,6 @@
 html {
     background-color: lightblue;
 }
-/* Header & Footer ----- add padding when floating title with image*/
 
 header {
     text-align: center;
@@ -23,6 +22,9 @@ h1 {
     margin: 0;
 }
 
+footer {
+    text-align: center;
+}
 
 /* Floated elements to place on 1 block*/
 
@@ -62,17 +64,14 @@ body {
 }
 
 .sam {
-    border-radius: 50%;
-    width: 350px; 
     float: left;
+    margin: 0 25px 15px 0;
 }
-  
-.more-info {
-    clear: both;
-}  
+   
 
 /* Centered poem text and formatted font to display more clearly in front of background image */
 #content {
+    clear: both;
     border: 2px solid black;
     text-align: center;
     font-size: 20px;

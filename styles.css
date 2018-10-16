@@ -10,6 +10,7 @@ h1 {
     font-family: 'Crimson Text', serif;
     margin: 0;
     color: #B02E0C;
+    font-size: 48px;
 }
 
 h2 {
@@ -20,12 +21,9 @@ h2 {
 }
 
 html {
-    background-color: #B0AEA5;
-}
-
-header, aside {
     background-color: #8EB1C7;
 }
+
 
 /* Page Header */
 
@@ -45,8 +43,8 @@ header, aside {
 }
 
 .more-info img {
-    max-width: 340px; 
-    height: auto; 
+    max-height: 340px; 
+    width: auto; 
     margin: 0 0 5px 0;
 }
 
@@ -63,22 +61,18 @@ header, aside {
 li {
     list-style-type:none;
 }
-    
-
-aside {
-    margin: 0 0 -25px 0;
-}
-
-                       /* Content */
 
 .poem-header {
-    text-align:center;
-    clear: both;
-    background-color: #8EB1C7;
-    padding: 0 0 20px 0;
+    font-size: 28px;
+    color: white;
+    margin: 0 0 -15px 0;
+    padding: 10px 0 0 0;
 }
+    
+                       /* Content */
 
-.poem {
+
+section {
    line-height: 1.6;
    clear: both;
    border: 2px solid black;
@@ -94,6 +88,7 @@ aside {
    background-position: center;
    padding: 0 0 15px 0;
  }
+ 
    
 .poem::first-letter {
     font-size: 180%;
@@ -101,30 +96,16 @@ aside {
 
                          /* Footer */
 
-footer {
+.citation {
+    color: #FEFDFF;
+    padding: 15px 0 0 0;
     text-align: center;
-    background-color: #8EB1C7;
-    padding: 0 0 15px 0;
 }
 
 .page-credits {
     padding: 0 0 15px 0;
     color: #FEFDFF;
-}
-
-.citation {
-    color: #FEFDFF;
-    padding: 15px 0 0 0;
-}
-
-.citation-images {
-    color: #FEFDFF;
-    padding: 15px 0 0 0;
-}
-
-.citation-additional {
-    color: #FEFDFF;
-    padding: 15px 0 0 0;
+    text-align: center
 }
 
                           /* Links */

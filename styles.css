@@ -1,4 +1,5 @@
 /* Fonts & Background color*/
+
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|PT+Serif');
 
 h1 {
@@ -7,16 +8,11 @@ h1 {
     margin: 0;
 }
 
-.page-header p {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-}
-
 h2 {
     font-family: 'PT Serif', serif;
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 
@@ -24,11 +20,55 @@ html {
     background-color: lightblue;
 }
 
+/* Page Header */
+
+.page-header {
+        text-align: center;
+}
+.page-header p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.more-info {
+    text-align:center;
+}
+
+.more-info img {
+    max-width: 340px; 
+    height: auto; 
+}
+
+.info-links, .social-links {
+    display: inline-block;
+    text-align:left;
+}
+
 /* Content */
+
+.poem-header {
+    text-align:center;
+    font-size: 24px;
+    clear: both;
+}
 
 .poem {
    font-family: 'PT Serif', serif; 
    line-height: 1.6;
+   clear: both;
+   border: 2px solid black;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+   background-image: url("images/hiking-the-sand-dunes.jpg");
+   background-size: cover;
+   background-position: center;
  }
    
 .poem::first-letter {
@@ -47,12 +87,13 @@ a {
     background: #3a7999;
     color: white;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     position: relative;
     box-sizing: border-box;
     transition: all 500ms ease;
     text-decoration: none;
+    line-height: 2;
 }
 a:hover {
     background: white;

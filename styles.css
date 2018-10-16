@@ -1,6 +1,35 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/* Pager & Footer */
 
-h1 {
-    color: green;
+.page-header .page-footer {
+    font-family: 'PT Serif', serif;
+}
+
+/* Body */
+
+body {
+    font-family: 'Crimson Text', serif;
+    
+}
+
+.sam {
+    border-radius: 50%
+}
+  
+
+#content {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    /*color: ; ----- Color tbd*/
+    background-image: url("images/hiking-the-sand-dunes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: black;
 }

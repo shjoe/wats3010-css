@@ -1,103 +1,51 @@
+/* Fonts & Background color*/
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|PT+Serif');
+
+h1 {
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    text-decoration: underline;
+}
+
 html {
     background-color: lightblue;
 }
 
-header {
-    text-align: center;
+/* Content */
+
+.poem {
+   font-family: 'PT Serif', serif; 
+   line-height: 1.6;
+ }
+   
+.poem::first-letter {
+    font-size: 180%;
 }
 
-.page-header .page-footer {
-    font-family: 'PT Serif', serif;
-}
-
-
-h1 {
-    font-size: 4em;
-    margin: 0;
-}
-
-.page-header p {
-    font-size: 1.8em;
-    font-weight: bold;
-    margin: 0;
-}
+/* Footer */
 
 footer {
     text-align: center;
 }
 
-/* Floated elements to place on 1 block*/
-
-
-.citation-images {
-    height: 100px;
-	float: left;
-	display:block;
-	background: white;
-	padding: 10px;
-	margin: 10px;
-}
-
-.citation-links {
-    height: 100px;
-	float: left;
-	display: block;
-	background: white;
-    padding: 10px;
-    margin: 10px;
-    
-}
-
-.page-footer ul {
-    text-align: center;
-    list-style-position: inside;
-    margin-top: -5px
-}
-
-/* Body */
-
-body {
-    font-family: 'Crimson Text', serif;
-    max-width: 950px;
-    margin: 0 auto;
-    
-}
-
-.sam {
-    float: left;
-    margin: 0 25px 15px 0;
-}
-   
-
-/* Centered poem text and formatted font to display more clearly in front of background image */
-#content {
-    clear: both;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: bold;
-    color: white;
-    text-shadow: -1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-    background-image: url("images/hiking-the-sand-dunes.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 0 0 25px 0;
-}
-
-hr {
-    height: 3px;
+/* Links */
+a {
     border: none;
-    background-color: black;
-}
-
-h2 {
-    text-decoration: underline;
-}
-
-a:hover {
+    background: #3a7999;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
     text-decoration: none;
+}
+a:hover {
+    background: white;
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
 }

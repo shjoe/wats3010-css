@@ -2,22 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|PT+Serif');
 
+body {
+    font-family: 'PT Serif', serif;
+}
+
 h1 {
     font-family: 'Crimson Text', serif;
     font-size: 3em;
     margin: 0;
+    color: #B02E0C;
 }
 
 h2 {
-    font-family: 'PT Serif', serif;
     text-decoration: underline;
     font-size: 1.5em;
     text-align: center;
+    color: #6E3E2F;
 }
 
-
 html {
-    background-color: lightblue;
+    background-color: #B0AEA5;
+}
+
+header, aside {
+    background-color: #8EB1C7;
 }
 
 /* Page Header */
@@ -25,10 +33,12 @@ html {
 .page-header {
         text-align: center;
 }
+
 .page-header p {
-    font-size: 1.5em;
+    font-family: 'Crimson Text', serif;
+    color: #4C2D1A;
+    margin: -15px 0 -20px 0;
     font-weight: bold;
-    margin: 0;
 }
 
 .more-info {
@@ -38,11 +48,27 @@ html {
 .more-info img {
     max-width: 340px; 
     height: auto; 
+    margin: 0 0 5px 0;
+}
+
+.more-info p {
+    color: #FEFDFF;
+    font-size: 18px;
+    margin: 0 0 0 0;
 }
 
 .info-links, .social-links {
     display: inline-block;
     text-align:left;
+}
+
+li {
+    list-style-type:none;
+}
+    
+
+aside {
+    margin: 0 0 -25px 0;
 }
 
 /* Content */
@@ -51,6 +77,8 @@ html {
     text-align:center;
     font-size: 24px;
     clear: both;
+    background-color: #8EB1C7;
+    padding: 0 0 20px 0;
 }
 
 .poem {
@@ -69,6 +97,7 @@ html {
    background-image: url("images/hiking-the-sand-dunes.jpg");
    background-size: cover;
    background-position: center;
+   padding: 0 0 15px 0;
  }
    
 .poem::first-letter {
@@ -79,24 +108,52 @@ html {
 
 footer {
     text-align: center;
+    background-color: #8EB1C7;
+    padding: 0 0 15px 0;
+}
+
+.page-credits {
+    font-size: 12px;
+    padding: 0 0 15px 0;
+    color: #FEFDFF;
+}
+
+.citation {
+    font-size: 18px;
+    color: #FEFDFF;
+    padding: 15px 0 0 0;
+}
+
+.citation-images {
+    font-size: 18px;
+    color: #FEFDFF;
+    padding: 15px 0 0 0;
+}
+
+.citation-additional {
+    font-size: 18px;
+    color: #FEFDFF;
+    padding: 15px 0 0 0;
 }
 
 /* Links */
+
 a {
     border: none;
-    background: #3a7999;
+    background: #B02E0C;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     position: relative;
     box-sizing: border-box;
     transition: all 500ms ease;
     text-decoration: none;
-    line-height: 2;
+    line-height: 3;
 }
+
 a:hover {
     background: white;
-    color: #3a7999;
-    box-shadow: inset 0 0 0 3px #3a7999;
+    color: #B02E0C;
+    box-shadow: inset 0 0 0 3px #B02E0C;
 }

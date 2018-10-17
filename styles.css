@@ -22,13 +22,15 @@ h2 {
 
 html {
     background-color: #8EB1C7;
+    background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
+    background-position: center;
 }
 
 
 /* Page Header */
 
-.page-header {
-        text-align: center;
+header {
+    text-align: center;
 }
 
 .page-header p {
@@ -38,14 +40,16 @@ html {
     font-weight: bold;
 }
 
-.more-info {
-    text-align:center;
+aside {
+    width: 55%;
 }
 
-.more-info img {
-    max-height: 340px; 
+aside img {
+    max-height: 240px; 
     width: auto; 
-    margin: 0 0 5px 0;
+    float: right;
+    padding: 0 0 15px 0;
+    border-radius: 50%;
 }
 
 .more-info p {
@@ -95,7 +99,7 @@ section {
 }
 
                          /* Footer */
-
+                    
 .citation {
     color: #FEFDFF;
     padding: 15px 0 0 0;
@@ -111,16 +115,17 @@ section {
                           /* Links */
 
 a {
+    font-size: 12px;
     border: none;
     background: #B02E0C;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     position: relative;
     box-sizing: border-box;
     transition: all 500ms ease;
     text-decoration: none;
-    line-height: 3;
+    line-height: 4;
 }
 
 a:hover {

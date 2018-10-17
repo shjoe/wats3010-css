@@ -17,7 +17,8 @@ h2 {
     font-family: 'Crimson Text', serif;
     text-decoration: underline;
     text-align: center;
-    color: #6E3E2F;
+    color: white;
+    font-weight: bold;
 }
 
 html {
@@ -33,15 +34,20 @@ header {
     text-align: center;
 }
 
+.page-header {
+    background-color: rgba(255,255,255,0.5);
+}
+
 .page-header p {
     color: #4C2D1A;
-    margin: -10px 0 -20px 0;
     padding: 0 0 15px 0;
     font-weight: bold;
 }
 
 aside {
     width: 55%;
+    background-color: rgba(71, 65, 57, 0.79);
+    padding: 0 15px 15px 15px;
 }
 
 aside img {
@@ -104,6 +110,10 @@ section {
     color: #FEFDFF;
     padding: 15px 0 0 0;
     text-align: center;
+}
+
+.page-footer {
+    background-color: rgba(71, 65, 57, 0.79);
 }
 
 .page-credits {

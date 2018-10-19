@@ -32,6 +32,11 @@ html {
 
 header {
     text-align: center;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: #B02E0C;
 }
 
 .page-header {
@@ -83,6 +88,7 @@ li {
 
 
 section {
+   margin: 15px 0 0 0;
    line-height: 1.6;
    clear: both;
    border: 2px solid black;
@@ -113,6 +119,7 @@ section {
 }
 
 .page-footer {
+    margin: 15px 0 0 0;
     background-color: rgba(71, 65, 57, 0.79);
 }
 
